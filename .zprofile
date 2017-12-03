@@ -73,3 +73,6 @@ fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+eval "$(direnv hook bash)"
+
